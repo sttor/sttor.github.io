@@ -263,23 +263,24 @@ margin-left:140px;
 }
 .feature-ul {
 margin-left:20px;
-line-height:55px;
-font-size: 20px;
+line-height:50px;
+font-size: 18px;
 font-weight:500;
 color:#042c66 !important;
 }
 
 .feature-hp {
 margin-top:10px;
-font-size:19px;
+font-size:18px;
 font-weight:600;
 font-family: 'Public Sans', sans-serif;
 
 }
 .feature-p {
-font-size:16px;
+font-size:14px;
 color:#626F7F;
 font-family: 'Public Sans', sans-serif;
+margin-top:-10px;
 }
 .small {
 font-size: 14px;

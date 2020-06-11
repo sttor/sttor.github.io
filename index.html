@@ -1,5 +1,5 @@
 <html lang="en">
-<head>
+   <head>
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133790948-1"></script>
       <script>
          window.dataLayer = window.dataLayer || [];
@@ -15,7 +15,6 @@
       <title>easySIEM | Security Analytics and Monitoring</title>
       <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <!-- Custom styles for this template -->
       <link href="css/home.css" rel="stylesheet">
       <link href="css/pricing.css" rel="stylesheet">
@@ -25,438 +24,416 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
       <!--       <script src='{% static "js/custom.js" %}'> </script>-->
    </head>
-      <body>
-         <header>
-            <nav  style="background-color:white" class="navbar navbar-expand navbar-dark">
-               <div class="container-fluid">
-                  <a style="" class="navbar-brand" href="#">
-                  <img style="margin-left:130px" height="60px" src='images/logo.svg' />
-                  </a>
-                  <div class="collapse navbar-collapse" id="navbarsExample07">
-                     <ul style="margin-left:-10px" class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                           <a id="logotext" href='home' >easySIEM</a>
-                        </li>
-                     </ul>
-                     <ul style="margin-right:130px" align="right" class="navbar-nav">
-                        <li class=" active">
-                           <a class="btn btn-primary head-btn-bold" target="_blank" href="https://demo.easysiem.com/">Documentation</a>
-                        </li>
+   <body>
 
-                     </ul>
+      <div class="container-fluid">
+
+         <div style="margin-top:20px;margin-bottom:20px;" class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-5">
+                <a style=""  href="#">
+               <img style="" height="60px" src='images/logo.svg' />
+               </a>
+               <a id="logotext" href='home' >easySIEM</a>
+            </div>
+            <div class="col-lg-5">
+                <a style="float:right"  class="btn btn-primary head-btn-bold" target="_blank" href="https://demo.easysiem.com/">Documentation</a>
+            </div>
+            <div class="col-lg-1">
+            </div>
+         </div>
+
+      </div>
+      <div style="background-color:#f6f6fa" class="container-fluid">
+         <div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="4000">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div  class="margin1 row">
+                     &nbsp;
                   </div>
-               </div>
-            </nav>
-         </header>
-            <div style="background-color:#f6f6fa" class="container-fluid">
-            <div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="4000">
-
-               <!-- The slideshow -->
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div  class="margin1 row">
-                        &nbsp;
+                  <div  class="row">
+                     <div class="col-lg-1"></div>
+                     <div class="col-lg-6 m1">
+                        <p  class="font1">Security Log Management and Monitoring.</p>
+                        <p  class="font2">Cybersecurity SaaS solution for your organisation.</p>
+                        <p  class="font2"><img height="45px" src='images/elastic.svg' /></p>
+                        <br/>
                      </div>
-                     <div  class="row">
-                        <div class="col-lg-6 m1">
-                           <p  class="font1">Security Log Management and Monitoring.</p>
-                           <p  class="font2">Cybersecurity SaaS solution for your organisation.</p>
-                           <p  class="font2"><img height="45px" src='images/elastic.svg' /></p>
-                           <br/>
-
-                        </div>
-                          <div class="col-lg-3">
-                           <img style="margin-top:-60px;" src="images/hero_img.svg"/>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div  class="margin1 row">
-                        &nbsp;
-                     </div>
-                     <div  class="row">
-                        <div class="col-lg-6 m1">
-                           <p  class="font1">Endpoint Security, Detection and Response.</p>
-                           <p  class="font2">To secure your employee's laptops and cloud servers </p>
-                           <p  class="font2">
-                              <img height="40px" src='images/windows_c.png' /> &nbsp;&nbsp;
-                              <img height="40px" src='images/apple.png' /> &nbsp;&nbsp;
-                              <img height="40px" src='images/centos.png' /> &nbsp;&nbsp;
-                              <img height="40px" src='images/debian.png' /> &nbsp;&nbsp;
-                              <img height="40px" src='images/ubuntu.png' /> &nbsp;&nbsp;
-                              <img height="40px" src='images/fedora.png' /> &nbsp;&nbsp;
-                              <img height="40px" src='images/freebsd.png' /> &nbsp;&nbsp;
-                           </p>
-                           <br/>
-
-                        </div>
-                          <div class="col-lg-3">
-                           <img style="margin-top:-60px;" src="images/hero_img.svg"/>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div  class="margin1 row">
-                        &nbsp;
-                     </div>
-                     <div  class="row">
-                        <div class="col-lg-6 m1">
-                           <p  class="font1">Automated VAPT for Application and Network. </p>
-                           <p  class="font2">Protecting your network perimeter, Web applications and APIs with
-                              continous vulnerability assessment.
-                           </p>
-                           <p  class="font2">
-                              <img height="50px" src='images/zap.png' /> &nbsp;&nbsp;
-                              <img height="50px" src='images/nmap.png' /> &nbsp;&nbsp;
-                              <img height="50px" src='images/openvas.png' /> &nbsp;&nbsp;
-                           </p>
-                           <br/>
-
-                        </div>
-                        <div class="col-lg-3">
-                           <img  style="margin-top:-60px;" src="images/hero_img.svg"/>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div  class="margin1 row">
-                        &nbsp;
-                     </div>
-                     <div  class="row">
-                        <div class="col-lg-6 m1">
-                           <p  class="font1">Compliance and Security Management.</p>
-                           <p  class="font2">It fulfills requirements for standards such as SOC2, NIST and GDPR Chapters.</p>
-                           <p  class="font2"><img height="60px" src='images/soc2.png' /></p>
-
-                        </div>
-                          <div class="col-lg-3">
-                           <img style="margin-top:-60px;" src="images/hero_img.svg"/>
-                        </div>
+                     <div class="col-lg-3">
+                        <img style="margin-top:-60px;" src="images/hero_img.svg"/>
                      </div>
                   </div>
                </div>
+               <div class="carousel-item">
+                  <div  class="margin1 row">
+                     &nbsp;
+                  </div>
+                  <div  class="row">
+                     <div class="col-lg-1"></div>
+                     <div class="col-lg-6 m1">
+                        <p  class="font1">Endpoint Security, Detection and Response.</p>
+                        <p  class="font2">To secure your employee's laptops and cloud servers </p>
+                        <p  class="font2">
+                           <img height="40px" src='images/windows_c.png' /> &nbsp;&nbsp;
+                           <img height="40px" src='images/apple.png' /> &nbsp;&nbsp;
+                           <img height="40px" src='images/centos.png' /> &nbsp;&nbsp;
+                           <img height="40px" src='images/debian.png' /> &nbsp;&nbsp;
+                           <img height="40px" src='images/ubuntu.png' /> &nbsp;&nbsp;
+                           <img height="40px" src='images/fedora.png' /> &nbsp;&nbsp;
+                           <img height="40px" src='images/freebsd.png' /> &nbsp;&nbsp;
+                        </p>
+                        <br/>
+                     </div>
+                     <div class="col-lg-3">
+                        <img style="margin-top:-60px;" src="images/hero_img.svg"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div  class="margin1 row">
+                     &nbsp;
+                  </div>
+                  <div  class="row">
+                     <div class="col-lg-1"></div>
+                     <div class="col-lg-6 m1">
+                        <p  class="font1">Automated VAPT for Application and Network. </p>
+                        <p  class="font2">Protecting your network perimeter, Web applications and APIs with
+                           continous vulnerability assessment.
+                        </p>
+                        <p  class="font2">
+                           <img height="50px" src='images/zap.png' /> &nbsp;&nbsp;
+                           <img height="50px" src='images/nmap.png' /> &nbsp;&nbsp;
+                           <img height="50px" src='images/openvas.png' /> &nbsp;&nbsp;
+                        </p>
+                        <br/>
+                     </div>
+                     <div class="col-lg-3">
+                        <img  style="margin-top:-60px;" src="images/hero_img.svg"/>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div  class="margin1 row">
+                     &nbsp;
+                  </div>
+                  <div  class="row">
+                     <div class="col-lg-1"></div>
+                     <div class="col-lg-6 m1">
+                        <p  class="font1">Compliance and Security Management.</p>
+                        <p  class="font2">It fulfills requirements for standards such as SOC2, NIST and GDPR Chapters.</p>
+                        <p  class="font2"><img height="60px" src='images/soc2.png' /></p>
+                     </div>
+                     <div class="col-lg-3">
+                        <img style="margin-top:-60px;" src="images/hero_img.svg"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div  align="center"   class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+               <h2  class="font3 b-col">
+                  <span class="fbd">Meet easySIEM</span>
+               </h2>
+               <br/>
+               <br/>
+               <span class="font-n">easySIEM is simplifying cybersecurity for the businesses. It is the affordable,
+               easy to use and yet powerful.</span>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">
+            <div class="col-lg-1">
 
             </div>
-               </div>
-            <div class="container-fluid">
-               <div  align="center"   class="row">
-                  <div class="col-lg-2"></div>
-                  <div class="col-lg-8">
-                     <h2  class="font3 b-col">
-                         <span class="fbd">Meet easySIEM</span>
-                     </h2>
-                     <br/>
-                     <br/>
-                     <span class="font-n">easySIEM is simplifying cybersecurity for the businesses. It is the affordable,
-                           easy to use and yet powerful.</span>
-                  </div>
-               </div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-               <div class="row mleft">
-                  <div class="col-lg-6">
-                     <img class="img-fluid img-box" src="images/feature_1.png"/>
-                  </div>
-
-                  <div class="col-lg-5">
-                     <ul class="feature-ul font-n">
-                        <li>Ingest logs from anywhere.</li>
-                        <li>Built-in support - Osquery, Syslog & Suricata.</li>
-                        <li>TCP and HTTPs Hooks available.</li>
-                        <li>Advance Search - Correlate and Investigate</li>
-                        <li>Realtime IOC Feeds from AlientVault.</li>
-                        <li>Visualization with pre-built dashboards.</li>
-                        <li>Vulnerability Management - deb, pip, rpm packages.</li>
-
-                     </ul>
-
-                  </div>
-
-               </div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-               <div class="row mleft">
-                  <div class="col-lg-5">
-                     <ul class="feature-ul font-n">
-                        <li>Realtime Query your Endpoints.</li>
-                        <li>Kill process, Isolate machine, Firewalls, etc.</li>
-                        <li>Write your own rule to respond.</li>
-                        <li>Network and Host Intrusion Detection.</li>
-                        <li>Automated VAPT - Nmap, OpenVAS,etc.</li>
-                        <li>Alerting - Elastalert with GUI.</li>
-                        <li>Incident Management</li>
-
-                     </ul>
-
-                  </div>
-                  <div style="margin-left:30px" class="col-lg-6">
-                     <img class="img-fluid img-box" src="images/feature_2.png"/>
-                  </div>
-
-
-               </div>
-                 <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-               <div  align="center"   class="row">
-                  <div class="col-lg-2"></div>
-                  <div class="col-lg-8">
-                     <h2  class="font3 b-col">
-                         <span class="fbd">Features</span>
-                     </h2>
-                     <br/>
-                     <br/>
-                     <span class="font-n">
-                        A multi featured product covers use cases enough to protect your business and
-                        satisfy compliance requirements.
-                     </span>
-                  </div>
-               </div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
+            <div class="col-lg-6">
+               <img class="img-fluid img-box" src="images/feature_1.png"/>
             </div>
-            <div class="container">
-                 <div class="row">
-                  <div align="center" class="col-lg-4">
-                     <img height="60px" style=""  src="images/mac.png" />
-                     <p class="feature-hp">Laptop Security</p>
-                     <p class="feature-p">Sysadmin can check if the employee's laptop following compliance checks
-                        (Antivirus enabled, disk encrypted, UAC Disabled, etc). </p>
-                  </div>
-                  <div align="center" class="col-lg-4">
-                     <img height="60px" style=""  src="images/cloud-computing.png" />
-                     <p class="feature-hp">Server Security</p>
-                     <p class="feature-p">
-                        Enables Intrusion Detecion/Prevention system for Hosts and Networks using enterprise ready agents
-                        like Osquery, Rsyslog and Suricata.
-                     </p>
-                  </div>
-                  <div align="center" class="col-lg-4">
-                     <img height="60px" style=""  src="images/incident_c.png" />
-                     <p class="feature-hp">Incident Management</p>
-                     <p class="feature-p">
-                        Platform to generate, collaborate and manage incident tickets.
-                        Incident Responder can investigate, triage and respond actively.
-                     </p>
-                  </div>
-
-               </div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-
-                 <div class="row">
-                  <div align="center" class="col-lg-4">
-                     <img height="60px" style=""  src="images/mitre.png" />
-                     <p class="feature-hp">Threat Hunting</p>
-                     <p class="feature-p">
-                         Search Integrated with Mitre Att&ck Query packs (Indexed Tactics, Techniques, Groups), IOC pulses from Alientvault OTX,
-                        31M malware feeds,etc.
-
-                     </p>
-                  </div>
-                  <div align="center" class="col-lg-4">
-                     <img height="60px" style=""  src="images/slack.png" />
-                     <p class="feature-hp">Alerting</p>
-                     <p class="feature-p">
-                      Pre-equipped with 100+ Alerts to notify and generate signals. Create your own alerts for slack/telegram/email with ElastAlert GUI.
-                     </p>
-                  </div>
-                  <div align="center" class="col-lg-4">
-                     <img height="60px" style=""  src="images/openvas.png" />
-                     <p class="feature-hp">Automated Penetration Testing</p>
-                     <p class="feature-p">
-                        Schedule Scan for your network, API, Infrastructure with Nmap, OpenVAS, OWASP ZAP and our customized scanners.
-                     </p>
-                  </div>
-
-               </div>
-               <div class="row">&nbsp;</div>
-               <div class="row">&nbsp;</div>
-
-                 <div class="row">
-                  <div align="center" class="col-lg-4">
-                     <img height="50px" style=""  src="images/aws.png" />
-                     <p class="feature-hp">Deployment Options</p>
-                     <p class="feature-p">
-                      We support Singletenant Architecture with multi-region options, Host your data in your own datacenters.
-                     </p>
-                  </div>
-                  <div align="center" class="col-lg-4">
-                     <img height="50px" style=""  src="images/osquery.png" />
-                     <p class="feature-hp">Multi Agent Support</p>
-                     <p class="feature-p">
-                     Officialy supports osquery, suricata, rsyslog. Logs from any source can be ingested via HTTP and TCP hooks over TLS.
-                     </p>
-                  </div>
-                  <div align="center" class="col-lg-4">
-                     <img height="50px" style=""  src="images/wazuh.png" />
-                     <p class="feature-hp">Wazuh Active Response</p>
-                     <p class="feature-p">
-                        Respond, create custom command execution,etc
-                        using wazuh-osquery-easysiem open source active response plugin.
-                     </p>
-                  </div>
-
-               </div>
-               <div class="row">&nbsp;</div>
-             <div class="row">&nbsp;</div>
+            <div class="col-lg-5">
+               <ul class="feature-ul font-n">
+                  <li>Ingest logs from anywhere.</li>
+                  <li>Built-in support - Osquery, Syslog & Suricata.</li>
+                  <li>TCP and HTTPs Hooks available.</li>
+                  <li>Advance Search - Correlate and Investigate</li>
+                  <li>Realtime IOC Feeds from AlientVault.</li>
+                  <li>Visualization with pre-built dashboards.</li>
+                  <li>Vulnerability Management - deb, pip, rpm packages.</li>
+               </ul>
             </div>
-            <div  style="background-color:#f6f6fa" class="container-fluid">
-            <div class="row">&nbsp;</div>
-            <div class="row">&nbsp;</div>
-               <div  class="row">
-                  <div class="col-lg-2">
-                  </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">
+            <div class="col-lg-1">
 
-                     <div class="col-lg-12">
-                  <p  style="line-height:80px;" align="center" class="font1"> These are just a glimpse, Know more about easysiem.
-                     <br/>
-
-                     <a style="margin-top:15px" href="https://docs.easysiem.com/" style="align:center" class="btn btn-primary">Documentation</a>
-                  </p>
-
-                     </div>
                </div>
+            <div class="col-lg-4">
 
-
-
-            <div class="row">&nbsp;</div>
-            <div class="row">&nbsp;</div>
+               <ul class="feature-ul font-n">
+                  <li>Realtime Query your Endpoints.</li>
+                  <li>Kill process, Isolate machine, Firewalls, etc.</li>
+                  <li>Write your own rule to respond.</li>
+                  <li>Network and Host Intrusion Detection.</li>
+                  <li>Automated VAPT - Nmap, OpenVAS,etc.</li>
+                  <li>Alerting - Elastalert with GUI.</li>
+                  <li>Incident Management</li>
+               </ul>
+            </div>
+            <div class="col-lg-6">
+               <img class="img-fluid img-box" src="images/feature_2.png"/>
             </div>
 
+            <div class="col-lg-1">
 
-            <!-- Marketing messaging and featurettes
-               ================================================== -->
-            <!-- Wrap the rest of the page in another container to center all the content. -->
-            <section id="price" class="pricing-table">
-
-               <div style="margin-top:60px"  class="container">
-                  <div class="row">
-                     &nbsp;&nbsp;
-                  </div>
-                  <div  align="center"   class="row">
-                  <div class="col-lg-2"></div>
-                  <div class="col-lg-8">
-                     <h2  class="font3 b-col">
-                         <span class="fbd">Pricing</span>
-                     </h2>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div  align="center"   class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+               <h2  class="font3 b-col">
+                  <span class="fbd">Features</span>
+               </h2>
+               <br/>
+               <br/>
+               <span class="font-n">
+               A multi featured product covers use cases enough to protect your business and
+               satisfy compliance requirements.
+               </span>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div align="center" class="col-lg-4">
+               <img height="60px" style=""  src="images/mac.png" />
+               <p class="feature-hp">Laptop Security</p>
+               <p class="feature-p">Sysadmin can check if the employee's laptop following compliance checks
+                  (Antivirus enabled, disk encrypted, UAC Disabled, etc).
+               </p>
+            </div>
+            <div align="center" class="col-lg-4">
+               <img height="60px" style=""  src="images/cloud-computing.png" />
+               <p class="feature-hp">Server Security</p>
+               <p class="feature-p">
+                  Enables Intrusion Detecion/Prevention system for Hosts and Networks using enterprise ready agents
+                  like Osquery, Rsyslog and Suricata.
+               </p>
+            </div>
+            <div align="center" class="col-lg-4">
+               <img height="60px" style=""  src="images/incident_c.png" />
+               <p class="feature-hp">Incident Management</p>
+               <p class="feature-p">
+                  Platform to generate, collaborate and manage incident tickets.
+                  Incident Responder can investigate, triage and respond actively.
+               </p>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">
+            <div align="center" class="col-lg-4">
+               <img height="60px" style=""  src="images/mitre.png" />
+               <p class="feature-hp">Threat Hunting</p>
+               <p class="feature-p">
+                  Search Integrated with Mitre Att&ck Query packs (Indexed Tactics, Techniques, Groups), IOC pulses from Alientvault OTX,
+                  31M malware feeds,etc.
+               </p>
+            </div>
+            <div align="center" class="col-lg-4">
+               <img height="60px" style=""  src="images/slack.png" />
+               <p class="feature-hp">Alerting</p>
+               <p class="feature-p">
+                  Pre-equipped with 100+ Alerts to notify and generate signals. Create your own alerts for slack/telegram/email with ElastAlert GUI.
+               </p>
+            </div>
+            <div align="center" class="col-lg-4">
+               <img height="60px" style=""  src="images/openvas.png" />
+               <p class="feature-hp">Automated Penetration Testing</p>
+               <p class="feature-p">
+                  Schedule Scan for your network, API, Infrastructure with Nmap, OpenVAS, OWASP ZAP and our customized scanners.
+               </p>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div class="row">
+            <div align="center" class="col-lg-4">
+               <img height="50px" style=""  src="images/aws.png" />
+               <p class="feature-hp">Deployment Options</p>
+               <p class="feature-p">
+                  We support Singletenant Architecture with multi-region options, Host your data in your own datacenters.
+               </p>
+            </div>
+            <div align="center" class="col-lg-4">
+               <img height="50px" style=""  src="images/osquery.png" />
+               <p class="feature-hp">Multi Agent Support</p>
+               <p class="feature-p">
+                  Officialy supports osquery, suricata, rsyslog. Logs from any source can be ingested via HTTP and TCP hooks over TLS.
+               </p>
+            </div>
+            <div align="center" class="col-lg-4">
+               <img height="50px" style=""  src="images/wazuh.png" />
+               <p class="feature-hp">Wazuh Active Response</p>
+               <p class="feature-p">
+                  Respond, create custom command execution,etc
+                  using wazuh-osquery-easysiem open source active response plugin.
+               </p>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+      </div>
+      <div  style="background-color:#f6f6fa" class="container-fluid">
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+         <div  class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10">
+               <p  style="line-height:80px;" align="center" class="font1"> These are just a glimpse, Know more about easysiem.
+                  <br/>
+                  <a style="margin-top:15px" href="https://docs.easysiem.com/" style="align:center" class="btn btn-primary">Documentation</a>
+               </p>
+            </div>
+         </div>
+         <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
+      </div>
+      <!-- Marketing messaging and featurettes
+         ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <section id="price" class="pricing-table">
+         <div style="margin-top:60px"  class="container">
+            <div class="row">
+               &nbsp;&nbsp;
+            </div>
+            <div  align="center"   class="row">
+               <div class="col-lg-2"></div>
+               <div class="col-lg-8">
+                  <h2  class="font3 b-col">
+                     <span class="fbd">Pricing</span>
+                  </h2>
+                  <br/>
+                  <span class="font-n">
+                  We are offering lowest price to host your security logs.
+                  If you know better pricing than this, please let us know.
+                  </span>
+                  <br/>
+                  <br/>
+               </div>
+            </div>
+            <div class="margin-pricing row justify-content-md-center">
+               <div class="col-lg-4">
+                  <div class="item">
+                     <div class="heading">
+                        <p class="font1">1.99<span style="color:gray"> $</span></p>
+                        <p class="font4" >LITE</p>
+                        <p class="feature-p small">Per GB/month</p>
+                     </div>
                      <br/>
-                     <span class="font-n">
-                       We are offering lowest price to host your security logs.
-                        If you know better pricing than this, please let us know.
-                     </span>
-                     <br/>
+                     <p class="pricing-p">7 Days log retention</p>
+                     <p class="pricing-p disabled">Kibana Plugin 9$/m</p>
+                     <p class="pricing-p disabled">Log Archival on S3</p>
+                     <p class="pricing-p disabled">VAPT Scans 9$/m</p>
+                     <p class="pricing-p disabled">Feature Request</p>
+                     <p class="pricing-p">Email Support</p>
                      <br/>
                   </div>
                </div>
-                  <div class="margin-pricing row justify-content-md-center">
-                     <div class="col-lg-4">
-                        <div class="item">
-                           <div class="heading">
-                              <p class="font1">1.99<span style="color:gray"> $</span></p>
-                              <p class="font4" >LITE</p>
-                               <p class="feature-p small">Per GB/month</p>
-                           </div>
-                           <br/>
-
-                           <p class="pricing-p">7 Days log retention</p>
-                           <p class="pricing-p disabled">Kibana Plugin 9$/m</p>
-                           <p class="pricing-p disabled">Log Archival on S3</p>
-                           <p class="pricing-p disabled">VAPT Scans 9$/m</p>
-                           <p class="pricing-p disabled">Feature Request</p>
-                           <p class="pricing-p">Email Support</p>
-                           <br/>
-
-                        </div>
+               <div class="col-md-5 col-lg-4">
+                  <div class="item">
+                     <div class="ribbon">RECOMMENDED</div>
+                     <div class="heading">
+                        <p class="font1">3.99<span style="color:gray"> $</span></p>
+                        <p class="font4" >PRO</p>
+                        <p class="feature-p small">Per GB/month</p>
                      </div>
-                     <div class="col-md-5 col-lg-4">
-                        <div class="item">
-                           <div class="ribbon">RECOMMENDED</div>
-                           <div class="heading">
-                              <p class="font1">3.99<span style="color:gray"> $</span></p>
-                              <p class="font4" >PRO</p>
-                              <p class="feature-p small">Per GB/month</p>
-                           </div>
-                           <br/>
-                           <p class="pricing-p">30 Days log retention</p>
-                           <p class="pricing-p">Kibana Plugin 9$/m</p>
-                           <p class="pricing-p">Log Archival on S3</p>
-                           <p class="pricing-p">VAPT Scans 9$/m</p>
-                           <p class="pricing-p">Feature Request</p>
-                           <p class="pricing-p">Email Support</p>
-                           <br/>
-
-                        </div>
-                     </div>
-                     <div class="col-md-5 col-lg-4">
-                        <div class="item">
-                           <div class="heading">
-                              <p class="font1">ENTERPRISE</p>
-                              <p class="font4" >Custom Quote</p>
-                              <p class="feature-p small">Per GB or Per endpoint/month</p>
-                           </div>
-                           <br/>
-                           <p class="pricing-p">Custom log retention period.</p>
-                           <p class="pricing-p">Kibana Plugin 9$/m</p>
-                           <p class="pricing-p">Log Archival on S3/Glacier</p>
-                           <p class="pricing-p">Unlimited VAPT Scans</p>
-                           <p class="pricing-p">Feature Request</p>
-                           <p class="pricing-p">Email Support, Chat, On-Prem</p>
-                           <br/>
-                        </div>
-                     </div>
+                     <br/>
+                     <p class="pricing-p">30 Days log retention</p>
+                     <p class="pricing-p">Kibana Plugin 9$/m</p>
+                     <p class="pricing-p">Log Archival on S3</p>
+                     <p class="pricing-p">VAPT Scans 9$/m</p>
+                     <p class="pricing-p">Feature Request</p>
+                     <p class="pricing-p">Email Support</p>
+                     <br/>
                   </div>
-                  <div class="row">&nbsp;</div>
                </div>
-            </section>
-
-         <div style="background-color:#f6f6fa" class="footer-font container-fluid">
+               <div class="col-md-5 col-lg-4">
+                  <div class="item">
+                     <div class="heading">
+                        <p class="font1">ENTERPRISE</p>
+                        <p class="font4" >Custom Quote</p>
+                        <p class="feature-p small">Per GB or Per endpoint/month</p>
+                     </div>
+                     <br/>
+                     <p class="pricing-p">Custom log retention period.</p>
+                     <p class="pricing-p">Kibana Plugin 9$/m</p>
+                     <p class="pricing-p">Log Archival on S3/Glacier</p>
+                     <p class="pricing-p">Unlimited VAPT Scans</p>
+                     <p class="pricing-p">Feature Request</p>
+                     <p class="pricing-p">Email Support, Chat, On-Prem</p>
+                     <br/>
+                  </div>
+               </div>
+            </div>
             <div class="row">&nbsp;</div>
-            <div class="row mleft">
-               <div class="col-lg-6">
+         </div>
+      </section>
+      <div style="background-color:#f6f6fa" class="footer-font container-fluid">
+         <div class="row">&nbsp;</div>
+         <div class="row mleft">
+            <div class="col-lg-6">
                <p>&copy; 2017-2020 easySIEM, Incorporated as Krraush Ecomm. Pvt Ltd.<br/> Incubated from Amrita TBI, Bangalore</p>
-                  </div>
-               <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6">
                <p>
                   <a class="text-muted" href="https://www.twitter.com/raushan_rajj">
-                     <img height="20px" src="images/gmail.png"> &nbsp Email - security@sttor.com
+                  <img height="20px" src="images/gmail.png"> &nbsp Email - security@sttor.com
                   </a>
                   &nbsp;
                   &nbsp;&nbsp;
                   &nbsp;
                   <a href="https://docs.easysiem.com/">
-                    About
+                  About
                   </a>
                   &nbsp;
                   &nbsp;
                   <a href="https://www.twitter.com/raushan_rajj">
-                     Legal
+                  Legal
                   </a>
                   &nbsp;
                   &nbsp;
                   <a href="https://www.twitter.com/raushan_rajj">
-                     Terms and Condition
+                  Terms and Condition
                   </a>
                   <br/>
                   <br/>
-
-                   <a class="text-muted"  href="https://www.linkedin.com/company/sttor-security/"><img height="20px" src="images/linkedin.png"></a>
+                  <a class="text-muted"  href="https://www.linkedin.com/company/sttor-security/"><img height="20px" src="images/linkedin.png"></a>
                   &nbsp;
                   &nbsp;
-                  <a class="text-muted" href="https://www.twitter.com/raushan_rajj"><img height="20px" src="images/twitter.png"></a></p>
-
-                  </p>
-
-
-               </div>
+                  <a class="text-muted" href="https://www.twitter.com/raushan_rajj"><img height="20px" src="images/twitter.png"></a>
+               </p>
+               </p>
             </div>
-             <div class="row">&nbsp;</div>
          </div>
-         <!-- Start of HubSpot Embed Code -->
-         <script type="text/javascript" id="hs-script-loader" async defer
-                 src="https://js.hs-scripts.com/5364687.js"></script>
-         <!-- End of HubSpot Embed Code -->
-      </body>
+         <div class="row">&nbsp;</div>
+      </div>
+      <!-- Start of HubSpot Embed Code -->
+      <script type="text/javascript" id="hs-script-loader" async defer
+         src="https://js.hs-scripts.com/5364687.js"></script>
+      <!-- End of HubSpot Embed Code -->
+   </body>
 </html>

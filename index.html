@@ -19,6 +19,7 @@
       <link href="css/home.css" rel="stylesheet">
       <link href="css/pricing.css" rel="stylesheet">
       <link href="css/carousel.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -45,8 +46,16 @@
          </div>
 
       </div>
-      <div style="background-color:#f6f6fa" class="container-fluid">
+      <div style="background-color:white" class="container-fluid">
          <div id="demo" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="3000">
+             <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
             <!-- The slideshow -->
             <div class="carousel-inner">
                <div class="carousel-item active">
@@ -54,41 +63,16 @@
                      &nbsp;
                   </div>
                   <div  class="row">
-                     <div class="col-lg-1"></div>
-                     <div class="col-lg-6 m1">
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-8 m1">
                         <p  class="font1">Security Log Management and Monitoring.</p>
                         <p  class="font2">Cybersecurity SaaS solution for your organisation.</p>
-                        <p  class="font2"><img height="45px" src='images/elastic.svg' /></p>
-                        <br/>
-                     </div>
-                     <div class="col-lg-3">
-                        <img style="margin-top:-60px;" src="images/hero_img.svg"/>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div  class="margin1 row">
-                     &nbsp;
-                  </div>
-                  <div  class="row">
-                     <div class="col-lg-1"></div>
-                     <div class="col-lg-6 m1">
-                        <p  class="font1">Endpoint Security, Detection and Response.</p>
-                        <p  class="font2">To secure your employee's laptops and cloud servers </p>
                         <p  class="font2">
-                           <img height="40px" src='images/windows_c.png' /> &nbsp;&nbsp;
-                           <img height="40px" src='images/apple.png' /> &nbsp;&nbsp;
-                           <img height="40px" src='images/centos.png' /> &nbsp;&nbsp;
-                           <img height="40px" src='images/debian.png' /> &nbsp;&nbsp;
-                           <img height="40px" src='images/ubuntu.png' /> &nbsp;&nbsp;
-                           <img height="40px" src='images/fedora.png' /> &nbsp;&nbsp;
-                           <img height="40px" src='images/freebsd.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/elastic.svg' />&nbsp;
                         </p>
                         <br/>
                      </div>
-                     <div class="col-lg-3">
-                        <img style="margin-top:-60px;" src="images/hero_img.svg"/>
-                     </div>
+
                   </div>
                </div>
                <div class="carousel-item">
@@ -96,22 +80,43 @@
                      &nbsp;
                   </div>
                   <div  class="row">
-                     <div class="col-lg-1"></div>
-                     <div class="col-lg-6 m1">
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-8 m1">
+                        <p  class="font1">Endpoint Security, Detection and Response.</p>
+                        <p  class="font2">To secure your employee's laptops and cloud servers </p>
+                        <p  class="font2">
+                           <img height="45px" src='images/windows_c.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/apple.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/centos.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/debian.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/ubuntu.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/fedora.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/freebsd.png' /> &nbsp;&nbsp;
+                        </p>
+                        <br/>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div  class="margin1 row">
+                     &nbsp;
+                  </div>
+                  <div  class="row">
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-8 m1">
                         <p  class="font1">Automated VAPT for Application and Network. </p>
                         <p  class="font2">Protecting your network perimeter, Web applications and APIs with
                            continous vulnerability assessment.
                         </p>
                         <p  class="font2">
-                           <img height="50px" src='images/zap.png' /> &nbsp;&nbsp;
-                           <img height="50px" src='images/nmap.png' /> &nbsp;&nbsp;
-                           <img height="50px" src='images/openvas.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/zap.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/nmap.png' /> &nbsp;&nbsp;
+                           <img height="45px" src='images/openvas.png' /> &nbsp;&nbsp;
                         </p>
                         <br/>
                      </div>
-                     <div class="col-lg-3">
-                        <img  style="margin-top:-60px;" src="images/hero_img.svg"/>
-                     </div>
+
                   </div>
                </div>
                <div class="carousel-item">
@@ -119,21 +124,33 @@
                      &nbsp;
                   </div>
                   <div  class="row">
-                     <div class="col-lg-1"></div>
-                     <div class="col-lg-6 m1">
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-8 m1">
                         <p  class="font1">Compliance and Security Management.</p>
                         <p  class="font2">It fulfills requirements for standards such as SOC2, NIST and GDPR Chapters.</p>
-                        <p  class="font2"><img height="60px" src='images/soc2.png' /></p>
+                        <p  class="font2">
+                           <img height="45px" src='images/soc2.png' />&nbsp;&nbsp;
+                        </p>
+                        <br/>
                      </div>
-                     <div class="col-lg-3">
-                        <img style="margin-top:-60px;" src="images/hero_img.svg"/>
-                     </div>
+
                   </div>
                </div>
             </div>
+
+
+              <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="cc-span carousel-control-prev-icon fa fa-arrow-left"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="cc-span carousel-control-next-icon fa fa-arrow-right"></span>
+        </a>
          </div>
       </div>
       <div class="container-fluid">
+          <div class="row">&nbsp;</div>
+         <div class="row">&nbsp;</div>
          <div  align="center"   class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
@@ -146,14 +163,7 @@
                easy to use and yet powerful.</span>
             </div>
          </div>
-         <div class="row">&nbsp;</div>
-         <div class="row">&nbsp;</div>
-         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-9">
-            <img height="500px" src="images/banner0.png"/>
-               </div>
-         </div>
+
          <div class="row">&nbsp;</div>
          <div class="row">&nbsp;</div>
          <div class="row">&nbsp;</div>
@@ -361,7 +371,7 @@
                      <p class="pricing-p disabled">Log Archival on S3</p>
                      <p class="pricing-p disabled">VAPT Scans</p>
                      <p class="pricing-p disabled">Feature Request</p>
-                     <p class="pricing-p disabled">Upto 2 Users</p>
+                     <p class="pricing-p ">Upto 2 Users</p>
                      <p class="pricing-p">Email Support</p>
                      <br/>
                   </div>

@@ -50,6 +50,9 @@ body {
   margin-left: .75rem;
 }
 
+.carousel-indicators li {
+margin-top:60px !important;
+}
 
 /* Featurettes
 ------------------------- */

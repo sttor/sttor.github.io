@@ -297,6 +297,17 @@ font-size: 15px;
 font-family: 'Public Sans', sans-serif;
 font-weight:600;
 }
+.head-btn-bold-rev {
+color:black !important;
+font-size: 15px;
+font-family: 'Public Sans', sans-serif;
+font-weight:600;
+background-color:white;
+border:1px solid black;
+}
+.head-btn-bold-rev:hover {
+background-color: lightgray;
+}
 
 .m1 {
 text-align:center;

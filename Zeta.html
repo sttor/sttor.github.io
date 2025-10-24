@@ -12,216 +12,193 @@
     <link href="./style.css" rel="stylesheet">
 </head>
 
-<body class="font-inter antialiased bg-gray-900 text-gray-200 tracking-tight">
+<body class="font-inter antialiased bg-[#f7f9fc] text-gray-900 tracking-tight">
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden">
  <!-- Site header -->
- <header class="absolute w-full z-30">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="flex items-center justify-between h-20">
+  <header class="fixed z-30 top-0 left-0 w-full " style="position: fixed; width: 100%; z-index: 30;">
+            <div class="max-w-6xl " style="max-width: 1200px; margin: 0 auto; ">
 
-            <!-- Site branding -->
-            <div class="shrink-0 mr-4">
-                <!-- Logo -->
-                <a class="block" href="index.html" aria-label="Sttor">
-                    <p  style="
-                              padding-top:5px;
-                              padding-bottom:5px;
-                              padding-left:12px;
-                              padding-right:12px;
-                            "
-                       class="flex items-center h3 text-purple-600 logo">
-                       <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 1294.21 1498.96" width="70.21" height="100.96">
-                        <circle cx="562.82" cy="725.47" r="522.25" style="fill: rgb(21 23 25); stroke: #000; stroke-miterlimit: 10;"/>
-                        <path d="M109.17,612.68c49.81,43.22,104.04,87.52,162.85,131.99,49.71,37.59,98.36,72.04,145.44,103.58-6.36,10.67-17.64,26.81-36.04,41.81-11.82,9.63-31.88,25.58-62.38,30.5-28.96,4.68-51.75-3.16-60.81-6.3-33.71-11.69-52.94-34.42-69.02-53.34-31.22-36.72-43.87-72.69-54.38-103.53-11.11-32.6-23.97-81.96-25.66-144.7Z" style="fill: #fff; stroke: #000; stroke-miterlimit: 10;"/>
-                        <path d="M120.88,635.3c38.95,37.33,84.26,76.95,136.36,116.65,49.53,37.74,97.33,69.56,141.63,96.31-8.09,10.79-25.31,30.69-54.08,43.94-11.54,5.32-33.74,15.46-61.37,12.24-33.01-3.85-54.53-24.92-70.46-40.97-11.84-11.92-31.72-34.91-56.16-98.17-12.02-31.11-26.34-75.04-35.91-130Z" style="fill: #050505;"/>
-                        <path d="M906.51,595.6c-28.02,17.24-56.11,34.37-84.2,51.49-116.75,71.18-233.82,142.53-359.8,201.02,5.27,9.95,37.42,68.45,103.53,82.8,53.37,11.58,97.64-12.38,119.35-24.13,32.81-17.76,53.9-40.89,66.91-55.17,17.63-19.33,28.28-36.05,46.12-64.03,18.08-28.36,31.51-52.83,40.55-70.21,9.7-17.98,19.58-36.07,29.64-54.26,12.62-22.82,25.26-45.32,37.9-67.51Z" style="fill: #fff; stroke: #000; stroke-miterlimit: 10;"/>
-                        <path d="M973.53,472.71s-15.18,8.24-15.18,8.24c-84.53,45.81-170.68,92.72-256.22,140.14-119.57,66.28-254.01,140.49-252.6,143.17,1.16,2.2,94.16-43.03,509.65-257.96,7.85,32.42,15.77,80.89,11.29,139.46-5.67,74.01-28.34,127.44-36.08,144.64-29.27,64.97-67.88,106.29-83.72,122.15-19.14,19.17-89.05,87.37-199.32,109.39-22.32,4.46-71.04,13.74-130.11,3.63-23.15-3.96-49.83-11.23-50.1-10.2-.27,1.01,24.93,8.7,49.2,15.88h0s23.71,5.13,45.41,8.11c9.41,1.29,129.78,9.13,246.25-69.9,165.77-112.48,183.74-306,184.98-322.28,5.75-75.34-10.29-136.87-23.45-174.46Z" style="fill: #fff;"/>
-                        <path d="M862.88,642.96c-24.05,14.18-48.15,28.28-72.26,42.37-100.19,58.57-200.66,117.28-308.78,165.41,4.52,8.19,32.12,56.32,88.85,68.13,45.8,9.53,83.8-10.19,102.43-19.85,27.87-14.47,45.78-33.21,57.43-45.39,14.94-15.63,23.63-28.61,39.58-52.69,11.16-16.85,25.5-39.9,40.55-68.5,0,0,35.09-60.63,52.21-89.47Z" style="fill: #050505;"/>
-                      </svg>
-                        <b>Sttor</b>
+                <div
+                    style="position: absolute; inset: 0; z-index: 0; background: repeating-linear-gradient(to right, #eef3fd 0px, #eef3fd 30px, transparent 30px, transparent 70px); opacity: 0.45;">
+                </div>
+                <div class="flex items-center border-1.5 justify-between "
+                    style="height: 56px; min-height: 56px; padding-top: 0; padding-bottom: 0;  background: rgba(255,255,255,0.7); border-radius: 18px; box-shadow: 0 6px 32px rgba(59,130,246,0.09); backdrop-filter: blur(5px); padding: 0 2.5rem; margin-top: 25px; position: relative; z-index: 2;">
 
-                    </p>
-                </a>
-            </div>
-
-            <!-- Desktop navigation -->
-            <nav class="hidden md:flex md:grow">
-
-                <!-- Desktop menu links -->
-                <ul class="flex grow justify-end flex-wrap items-center">
-                    <li
-                        class="relative"
-                        x-data="{ open: false }"
-                        @mouseenter="open = true"
-                        @mouseleave="open = false"
-                    >
-                        <a
-                            class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                            href="#0"
-                            aria-haspopup="true"
-                            :aria-expanded="open"
-                            @focus="open = true"
-                            @focusout="open = false"
-                            @click.prevent
-                        >
-                           Services
-                            <svg class="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
-                            </svg>
+                    <!-- Site branding -->
+                    <div class="shrink-0 ">
+                        <!-- Logo -->
+                        <a class="block" href="index.html" aria-label="Sttor">
+                            <div class="shrink-0 ">
+                                <!-- Logo -->
+                                <a class="block" href="index.html" aria-label="Sttor">
+                                    <img src="./images/sttor-new logo.jpeg" alt="Sttor Logo" class=""
+                                        style="height: 50px; width: 50px; padding: 3px; border-radius: 9999px; box-shadow: 0 2px 12px rgba(59,130,246,0.12);" />
+                                </a>
+                            </div>
                         </a>
-                        <!-- 2nd level: hover -->
-                        <ul
-                            class="origin-top-right absolute top-full right-0  w-60 bg-gray-800 py-2 ml-4 rounded-sm"
-                            x-show="open"
-                            x-transition:enter="transition ease-out duration-200 transform"
-                            x-transition:enter-start="opacity-0 -translate-y-2"
-                            x-transition:enter-end="opacity-100 translate-y-0"
-                            x-transition:leave="transition ease-out duration-200"
-                            x-transition:leave-start="opacity-100"
-                            x-transition:leave-end="opacity-0"
-                            x-cloak
-                        >
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="devsecopsservice.html" @focus="open = true" @focusout="open = false">DevSecOps as a Service</a>
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="hidden md:flex md:grow">
+
+                        <!-- Desktop menu links -->
+                        <ul class="flex grow justify-end flex-wrap items-center" style="gap: 15px;">
+                            <li class="relative" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a class="text-gray-900 hover:text-gray-700 px-4 py-2 flex items-center"
+                                    style=" font-size: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: transparent; transition: background 0.15s, color 0.15s;"
+                                    href="#0" aria-haspopup="true" :aria-expanded="open" @focus="open = true"
+                                    @focusout="open = false" @click.prevent>
+                                    Services
+                                    <svg class="w-3 h-3 fill-current text-gray-900 cursor-pointer ml-1 shrink-0"
+                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
+                                    </svg>
+                                </a>
+                                <!-- 2nd level: hover -->
+                                <ul class="origin-top-right absolute top-full right-0 w-60 border border-1  bg-white py-2 ml-4 rounded-sm"
+                                    style=" border-radius: 10px; min-width: 170px; margin-top: 3px;" x-show="open"
+                                    x-transition:enter="transition ease-out duration-200 transform"
+                                    x-transition:enter-start="opacity-0 -translate-y-2"
+                                    x-transition:enter-end="opacity-100 translate-y-0"
+                                    x-transition:leave="transition ease-out duration-200"
+                                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak>
+                                    <li>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style=" font-size: 0.9rem; " href="devsecopsservice.html"
+                                            @focus="open = true" @focusout="open = false">DevSecOps as a Service</a>
+                                    </li>
+                                    <li>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style="font-size: 0.9rem; " href="soc.html" @focus="open = true"
+                                            @focusout="open = false"> Security
+                                            Operations Center</a>
+                                    </li>
+                                    <li>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style=" font-size: 0.9rem; " href="Kubernetessec.html" @focus="open = true"
+                                            @focusout="open = false">Kubernetes Security Assessment </a>
+                                    </li>
+                                    <li>
+                                        <a class="font-medium text-sm text-gray-800 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style="font-weight: 500; font-size: 0.9rem; " href="cloudsec.html"
+                                            @focus="open = true" @focusout="open = false">Cloud
+                                            Security Assessment </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="relative" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a class="text-gray-900 hover:text-gray-700 px-4 py-2 flex items-center"
+                                    style=" font-size: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: transparent; transition: background 0.15s, color 0.15s;"
+                                    href="#0" aria-haspopup="true" :aria-expanded="open" @focus="open = true"
+                                    @focusout="open = false" @click.prevent>
+                                    Product
+                                    <svg class="w-3 h-3 fill-current text-gray-900 cursor-pointer ml-1 shrink-0"
+                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
+                                    </svg>
+                                </a>
+                                <!-- 2nd level: hover -->
+                                <ul class="origin-top-right absolute top-full right-0 w-40 bg-white border  py-2 ml-4 rounded-sm"
+                                    style="border-radius: 10px;  min-width: 170px; margin-top: 3px;" x-show="open"
+                                    x-transition:enter="transition ease-out duration-200 transform"
+                                    x-transition:enter-start="opacity-0 -translate-y-2"
+                                    x-transition:enter-end="opacity-100 translate-y-0"
+                                    x-transition:leave="transition ease-out duration-200"
+                                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak>
+                                    <li>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style=" font-size: 0.9rem;" href=" https://devsecops.bot" @focus="open = true"
+                                            @focusout="open = false">AI
+                                            DevSecOps </a>
+                                    </li>
+                                    <li>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style="font-size: 0.9rem;" href="Aibanksoc.html" @focus="open = true"
+                                            @focusout="open = false">AI
+                                            Banking SOC</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="soc.html" @focus="open = true" @focusout="open = false"> Security Operations Center</a>
-                            </li>
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="Kubernetessec.html" @focus="open = true" @focusout="open = false">Kubernetes Security Assessment </a>
-                            </li>
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="cloudsec.html" @focus="open = true" @focusout="open = false">Cloud Security Assessment </a>
+                                <a class="text-gray-900 hover:text-gray-700 px-4 py-2 flex items-center"
+                                    style="font-size: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: transparent; transition: background 0.15s, color 0.15s;"
+                                    href="about.html">About us</a>
                             </li>
                         </ul>
-                    </li>
-                    <li
-                        class="relative"
-                        x-data="{ open: false }"
-                        @mouseenter="open = true"
-                        @mouseleave="open = false"
-                    >
-                        <a
-                            class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                            href="#0"
-                            aria-haspopup="true"
-                            :aria-expanded="open"
-                            @focus="open = true"
-                            @focusout="open = false"
-                            @click.prevent
-                        >
-                           Product
-                            <svg class="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
+                    </nav>
+
+                    <!-- Mobile menu (unchanged) -->
+                    <div class="md:hidden" x-data="{ expanded: false }">
+
+                        <!-- Hamburger button -->
+                        <button class="hamburger" :class="{ 'active': expanded }" @click.stop="expanded = !expanded"
+                            aria-controls="mobile-nav" :aria-expanded="expanded">
+                            <span class="sr-only">Menu</span>
+                            <svg class="w-6 h-6 fill-current text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="4" width="24" height="2" rx="1" />
+                                <rect y="11" width="24" height="2" rx="1" />
+                                <rect y="18" width="24" height="2" rx="1" />
                             </svg>
-                        </a>
-                        <!-- 2nd level: hover -->
-                        <ul
-                            class="origin-top-right absolute top-full right-0 w-40 bg-gray-800 py-2 ml-4 rounded-sm"
-                            x-show="open"
-                            x-transition:enter="transition ease-out duration-200 transform"
-                            x-transition:enter-start="opacity-0 -translate-y-2"
-                            x-transition:enter-end="opacity-100 translate-y-0"
-                            x-transition:leave="transition ease-out duration-200"
-                            x-transition:leave-start="opacity-100"
-                            x-transition:leave-end="opacity-0"
-                            x-cloak
-                        >
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="Aidevsecops.html" @focus="open = true" @focusout="open = false">AI DevSecOps </a>
-                            </li>
-                            <li>
-                                <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="Aibanksoc.html" @focus="open = true" @focusout="open = false">AI Banking SOC</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="about.html">About us</a>
-                    </li>
-<!--                            <li>-->
-<!--                                <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="blog.html">Blog </a>-->
-<!--                            </li>-->
-                    <!-- 1st level: hover -->
-                    
-                </ul>
+                        </button>
 
-
-            </nav>
-            
-            <!-- Mobile menu -->
-            <div class="md:hidden" x-data="{ expanded: false }">
-
-                <!-- Hamburger button -->
-                <button
-                    class="hamburger"
-                    :class="{ 'active': expanded }"
-                    @click.stop="expanded = !expanded"
-                    aria-controls="mobile-nav"
-                    :aria-expanded="expanded"
-                >
-                    <span class="sr-only">Menu</span>
-                    <svg class="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <rect y="4" width="24" height="2" rx="1" />
-                        <rect y="11" width="24" height="2" rx="1" />
-                        <rect y="18" width="24" height="2" rx="1" />
-                    </svg>
-                </button>
-
-                <!-- Mobile navigation -->
-                <nav
-                    id="mobile-nav"
-                    class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
-                    x-ref="mobileNav"
-                    :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'"
-                    @click.outside="expanded = false"
-                    @keydown.escape.window="expanded = false"
-                    x-cloak
-                >
-                    <ul class="bg-gray-800 px-4 py-2">
-                      
-                        <li>
-                            <a class="flex text-gray-300 hover:text-gray-200 py-2" href="about.html">About us</a>
-                        </li>
-                      
-                        <li class="py-2 my-2 border-t border-gray-700">
-                            <span class="flex text-gray-300 py-2">Services</span>
-                            <ul class="pl-4">
+                        <!-- Mobile navigation -->
+                        <nav id="mobile-nav"
+                            class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+                            x-ref="mobileNav"
+                            :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'"
+                            @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
+                            <ul class="bg-white px-4 py-2 rounded-lg border">
                                 <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="devsecopsservice.html">DevSecOps as a Service</a>
+                                    <a class="flex text-gray-900 hover:text-gray-700 py-2" href="about.html">About
+                                        us</a>
                                 </li>
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="soc.html">Security Operations Center</a>
+                                <li class="py-2 my-2 border-t border-gray-700">
+                                    <span class="flex text-gray-900 py-2">Services</span>
+                                    <ul class="pl-4">
+                                        <li>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="devsecopsservice.html">DevSecOps as a Service</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="soc.html">Security Operations Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="Kubernetessec.html">Kubernetes Security Assessment</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="cloudsec.html">Cloud Security Assessment </a>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="Kubernetessec.html">Kubernetes Security Assessment</a>
-                                </li>
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="cloudsec.html">Cloud Security Assessment </a>
+                                <li class="py-2 my-2 border-t border-gray-700">
+                                    <span class="flex text-gray-900 py-2">Product</span>
+                                    <ul class="pl-4">
+                                        <li>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href=" https://devsecops.bot">AI DevSecOps</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="Aibanksoc.html">AI Banking SOC</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="py-2 my-2 border-t border-gray-700">
-                            <span class="flex text-gray-300 py-2">Product</span>
-                            <ul class="pl-4">
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="Aidevsecops.html">AI DevSecOps</a>
-                                </li>
-                                <li>
-                                    <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="Aibanksoc.html">AI Banking SOC</a>
-                                </li>
-                                
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-
+                        </nav>
+                    </div>
+                </div>
             </div>
-
-        </div>
-    </div>
-</header>
+        </header>
 
         <!-- Page content -->
         <main class="grow">
@@ -252,7 +229,7 @@
                                     <!-- Title and excerpt -->
                                     <div class="text-center md:text-left">
                                         <h1 class="h1 mb-4" data-aos="fade-up">Setting up SOC for India’s largest FinTech - Zeta.</h1>
-                                        <p class="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+                                        <p class="text-xl text-gray-700" data-aos="fade-up" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
                                     </div>
                                     <!-- Article meta -->
                                     <div class="md:flex md:items-center md:justify-between mt-3">
@@ -262,19 +239,19 @@
                                                 <img class="rounded-full shrink-0 mr-4" src="./images/news-author-04.jpg" width="40" height="40" alt="Author 04" />
                                             </a>
                                             <div>
-                                                <a class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Chris Solerieu</a>
+                                                <a class="font-medium text-gray-700 hover:text-gray-800 transition duration-150 ease-in-out" href="#0">Chris Solerieu</a>
                                                 <span class="text-gray-700"> - </span>
-                                                <span class="text-gray-500">Jan 19, 2020</span>
+                                                <span class="text-gray-700">Jan 19, 2020</span>
                                             </div>
                                         </div>
                                         <!-- Article tags -->
                                         <div class="flex justify-center mt-4 md:mt-0" data-aos="fade-up" data-aos-delay="600">
                                             <ul class="flex flex-wrap text-xs font-medium -m-1">
                                                 <li class="m-1">
-                                                    <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" href="#0">Product</a>
+                                                    <a class="inline-flex text-center text-white py-1 px-3 rounded-full bg-gray-700 hover:bg-gray-800 transition duration-150 ease-in-out" href="#0">Product</a>
                                                 </li>
                                                 <li class="m-1">
-                                                    <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out" href="#0">Engineering</a>
+                                                    <a class="inline-flex text-center text-white py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out" href="#0">Engineering</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -287,11 +264,11 @@
                                 </figure>
 
                                 <!-- Article content -->
-                                <div class="text-lg text-gray-400">
+                                <div class="text-lg text-gray-700">
                                     <p class="mb-8">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum. Neque sodales ut etiam sit amet. <a class="text-gray-200 underline hover:no-underline" href="#0">Ligula ullamcorper</a> malesuada proin libero nunc consequat interdum varius. Quam pellentesque nec nam aliquam sem <strong class="font-medium text-gray-200">et tortor consequat</strong>. Pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam. <strong class="font-medium text-gray-200">Varius sit amet mattis vulputate enim</strong> nulla aliquet porttitor. Odio pellentesque diam volutpat commodo sed. Elit sed vulputate mi sit amet mauris commodo quis imperdiet.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum. Neque sodales ut etiam sit amet. <a class="text-gray-900 underline hover:no-underline" href="#0">Ligula ullamcorper</a> malesuada proin libero nunc consequat interdum varius. Quam pellentesque nec nam aliquam sem <strong class="font-medium text-gray-900">et tortor consequat</strong>. Pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam. <strong class="font-medium text-gray-900">Varius sit amet mattis vulputate enim</strong> nulla aliquet porttitor. Odio pellentesque diam volutpat commodo sed. Elit sed vulputate mi sit amet mauris commodo quis imperdiet.
                                     </p>
-                                    <blockquote class="italic pl-4 border-l-2 border-gray-200 mb-8">
+                                    <blockquote class="italic pl-4 border-l-2 border-gray-800 mb-8">
                                         Greg Korshak, a journalist for the New York Times, reported that e-commerce audience will reach 380 million worldwide this year, comprising 250 dedicated fans and 215 occasional viewers. New York Times projected that the e-commerce industry would generate $905 million in revenue in 2020.
                                     </blockquote>
                                     <p class="mb-8">
@@ -301,12 +278,12 @@
                                         <img class="w-full" src="./images/news-inner-image.jpg" width="768" height="432" alt="News inner" />
                                         <figcaption class="text-sm text-center text-gray-500 mt-3">Photo by Helena Lopes on Unsplash</figcaption>
                                     </figure>
-                                    <h3 class="h3 mb-4 text-gray-200">Challenges of designing for masses</h3>
+                                    <h3 class="h3 mb-4 text-gray-900">Challenges of designing for masses</h3>
                                     <p class="mb-8">
                                         Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Auctor urna nunc id cursus metus aliquam eleifend. Arcu dictum varius duis at consectetur lorem donec massa sapien. Sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
                                     </p>
-                                    <h4 class="font-medium text-gray-200 mb-8">Here’s what we discovered:</h4>
-                                    <ul class="list-disc list-inside mb-8">
+                                    <h4 class="font-medium text-gray-700 mb-8">Here’s what we discovered:</h4>
+                                    <ul class="list-disc list-inside mb-8 text-gray-700">
                                         <li>Aenean sed adipiscing diam donec adipiscing tristique.</li>
                                         <li>Urna nunc id cursus metus aliquam eleifend.</li>
                                         <li>Arcu dictum varius duis at consectetur lorem donec massa sapien.</li>
@@ -318,24 +295,23 @@
                                     <p class="mb-8">
                                         Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio tristique senectus et netus et. Nibh nisl condimentum id venenatis:
                                     </p>
-                                    <h4 class="h4 text-gray-200 mb-4">1. The quick brown fox jumped over the lazy dog.</h4>
+                                    <h4 class="h4 text-gray-900 mb-4">1. The quick brown fox jumped over the lazy dog.</h4>
                                     <p class="mb-8">
                                         Sed risus ultricies tristique nulla aliquet morbi tristique senectus et netus et. Nibh nisl condimentum, id venenatis a condimentum vitae sapien.
                                     </p>
-                                    <h4 class="h4 text-gray-200 mb-4">2. The quick brown fox jumped over the lazy dog.</h4>
+                                    <h4 class="h4 text-gray-900 mb-4">2. The quick brown fox jumped over the lazy dog.</h4>
                                     <p class="mb-8">
                                         Sed risus ultricies tristique nulla aliquet morbi tristique senectus et netus et. Nibh nisl condimentum, id venenatis a condimentum vitae sapien.
                                     </p>
                                     <p class="mb-8">
                                         Bibendum enim facilisis gravida neque convallis. Convallis posuere morbi leo urna molestie turpis in eu mi bibendum neque egestas. Est ante in <a class="text-gray-200 underline hover:no-underline" href="#0">nibh mauris cursus mattis molestie</a> aliquam purus sit amet luctus vulputate sapien nec sagittis aliquam enim nec dui nunc mattis enim, sit amet nulla facilisi morbi tempus iaculis urna id. Blandit cursus risus at ultrices mi tempus imperdiet nulla.
                                     </p>
-                                    <h3 class="h3 mb-4 text-gray-200">Conclusions</h3>
+                                    <h3 class="h3 mb-4 text-gray-900">Conclusions</h3>
                                     <p class="mb-8">
                                         Sapien nec sagittis aliquam malesuada orci sagittis eu volutpat odio facilisis mauris sit amet massa, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo, purus viverra accumsan in nisl nisi scelerisque. Vel pharetra vel turpis nunc eget lorem malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Tempus quam pellentesque nec nam aliquam sem et tortor consequat.
                                     </p>
                                 </div>
                               </article>
-
                         </div>
 
                         <!-- Related articles -->
@@ -347,9 +323,6 @@
 
                                 <!-- Articles container -->
                                 <div class="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-
-                                   
-    
                                     <!-- 2nd article -->
                                     <article class="flex flex-col h-full" data-aos="fade-up" data-aos-delay="200">
                                         <header>
@@ -361,7 +334,7 @@
                                             <div class="mb-3">
                                                 <ul class="flex flex-wrap text-xs font-medium -m-1">
                                                     <li class="m-1">
-                                                        <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out" href="#0">Desing</a>
+                                                        <a class="inline-flex text-center text-white py-1 px-3 rounded-full bg-gray-700 hover:bg-gray-800 transition duration-150 ease-in-out" href="#0">Desing</a>
                                                     </li>
                                                     <li class="m-1">
                                                         <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out" href="#0">Engineering</a>
@@ -369,10 +342,10 @@
                                                 </ul>
                                             </div>
                                             <h3 class="h4 mb-2">
-                                                <a class="hover:text-gray-100 transition duration-150 ease-in-out" href="dehaat.html">Streamlining DevSecOps for India’s largest AgriTech - Dehaat. </a>
+                                                <a class="hover:text-gray-700 transition duration-150 ease-in-out" href="dehaat.html">Streamlining DevSecOps for India’s largest AgriTech - Dehaat. </a>
                                             </h3>
                                         </header>
-                                        <p class="text-lg text-gray-400 grow">One of our security engineers has experience in streamlining CI/CD security with github action for India’s largest Agricultural Technology firm, Green Agrevolution India Private Limited. </p>
+                                        <p class="text-lg text-gray-700 grow">One of our security engineers has experience in streamlining CI/CD security with github action for India’s largest Agricultural Technology firm, Green Agrevolution India Private Limited. </p>
                                        
                                     </article>
     
@@ -387,7 +360,7 @@
                                             <div class="mb-3">
                                                 <ul class="flex flex-wrap text-xs font-medium -m-1">
                                                     <li class="m-1">
-                                                        <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" href="#0">Product</a>
+                                                        <a class="inline-flex text-center text-white py-1 px-3 rounded-full bg-gray-700 hover:bg-gray-800 transition duration-150 ease-in-out" href="#0">Product</a>
                                                     </li>
                                                     <li class="m-1">
                                                         <a class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out" href="#0">Tutorials and articles</a>
@@ -395,133 +368,116 @@
                                                 </ul>
                                             </div>
                                             <h3 class="h4 mb-2">
-                                                <a class="hover:text-gray-100 transition duration-150 ease-in-out" href="googlesec.html">How we helped improving Google Security Team securing AI Colab notebook.</a>
+                                                <a class="hover:text-gray-700 transition duration-150 ease-in-out" href="googlesec.html">How we helped improving Google Security Team securing AI Colab notebook.</a>
                                             </h3>
                                         </header>
-                                        <p class="text-lg text-gray-400 grow">We have reported how a malicious Google Colab notebook can be execute in victim’s session. This issue was acknowledged with monetary rewards by Google Vulnerability Research Program team.</p>
-                                       
+                                        <p class="text-lg text-gray-700 grow">We have reported how a malicious Google Colab notebook can be execute in victim’s session. This issue was acknowledged with monetary rewards by Google Vulnerability Research Program team.</p>                                       
                                     </article>
-
                                 </div>
-
                             </div>
                         </aside>
-
                     </div>
                 </div>
-            </section>
-
-           
+            </section>    
         </main>
 
          <!-- Site footer -->
-          <footer>
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20 border-t border-gray-800">
-                <div class="max-w-6xl mx-auto px-4 sm:px-6">
+         <footer>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20 border-t border-gray-800">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
 
-                    <!-- Top area: Blocks -->
-                    <div class="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
-
-                        <!-- 1st block -->
-                        <div class="md:col-span-4 lg:col-span-2">
-                            <div class="mb-2">
-                                <!-- Logo -->
-                                <a class="text-lg " href="index.html" aria-label="Cruip">
-                                    <h1 class="h3 text-purple-600 logo">Sttor</h1>
-                                </a>
-                            </div>
-                            <div class="text-gray-400">Affordable DevSecOps as a service.</div>
+                <!-- Top area: Blocks -->
+                <div class="flex flex-col md:flex-row items-start gap-8 md:gap-16 lg:gap-20 mb-8 md:mb-12">
+                    <!-- 1st block -->
+                    <div>
+                        <div class="mb-2">
+                            <a class="text-lg" href="index.html" aria-label="Cruip">
+                                <h1 class="h3 text-gray-800 logo">Sttor</h1>
+                            </a>
                         </div>
-                        
-                        <!-- 2nd, 3rd and 4th , 5th blocks -->
-                        <div class="md:col-span-8 lg:col-span-1 grid sm:grid-cols-3 gap-8">
-
-                            <!-- 2nd block -->
-
-                            <div class="text-sm">
-                                <h6 class="text-gray-200 font-medium mb-1">Services</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="devsecopsservice.html">DevSecOps as Service</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="soc.html">Security Operations Service</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="Kubernetessec.html">Kubernetes Security Assessment</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="cloudsec.html">Cloud Security Assessment</a>
-                                    </li>
-                                </ul>
-                            </div>
-                          <!-- 3rd block -->
-                            <div class="text-sm">
-                                <h6 class="text-gray-200 font-medium mb-1">Products</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="Aidevsecops.html">AI DevSecOps Bot</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="Aibanksoc.html">AI Banking SOC</a>
-                                    </li>
-                                
-                                </ul>
-                            </div>
-            
-
-                            <!-- 5th block -->
-                            <div class="text-sm">
-                                <h6 class="text-gray-200 font-medium mb-1">Company</h6>
-                                <ul>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="about.html">About Us</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="#Contact">Contact Us</a>
-                                    </li>
-                                    <li class="mb-1">
-                                        <a class="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out" href="privacy.html">Privacy Policy</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-
+                        <div class="text-gray-600">Affordable DevSecOps as a service.</div>
                     </div>
 
-                    <!-- Bottom area -->
-                    <div class="md:flex md:items-center md:justify-between">
-
-                        <!-- Social links -->
-                        <ul class="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-                            <li>
-                                <a class="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" href="#0" aria-label="Twitter">
-                                    <svg class="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
-                                    </svg>
-                                </a>
-                            </li>
-                            
-                            <li class="ml-4">
-                                <a class="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" href="#0" aria-label="Linkedin">
-                                    <svg class="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z" />
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <!-- Copyrights note -->
-                        <div class="text-gray-400 text-sm mr-4">&copy; Sttor All rights reserved.</div>
-
+                    <!-- 2nd, 3rd, 4th blocks -->
+                    <div class="flex gap-16">
+                        <!-- Services -->
+                        <div class="text-sm">
+                            <h6 class="text-gray-700 font-medium mb-1">Services</h6>
+                            <ul>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="devsecopsservice.html">DevSecOps as Service</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="soc.html">Security Operations Service</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="Kubernetessec.html">Kubernetes Security Assessment</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="cloudsec.html">Cloud Security Assessment</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Products -->
+                        <div class="text-sm">
+                            <h6 class="text-gray-700 font-medium mb-1">Products</h6>
+                            <ul>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="Aidevsecops.html">AI DevSecOps Bot</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="Aibanksoc.html">AI Banking SOC</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Company -->
+                        <div class="text-sm">
+                            <h6 class="text-gray-700 font-medium mb-1">Company</h6>
+                            <ul>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="about.html">About Us</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="#Contact">Contact Us</a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                        href="privacy.html">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
+                </div>
+                <!-- Bottom area -->
+                <div class="md:flex md:items-center md:justify-between">
+                    <!-- Social links -->
+                    <ul class="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+                        <li class="ml-4">
+                            <a class="flex justify-center items-center text-gray-100 bg-gray-700 hover:text-gray-200 hover:bg-gray-800 rounded-full transition duration-150 ease-in-out"
+                                href="https://www.linkedin.com/company/ksecai/" aria-label="Linkedin">
+                                <svg class="w-8 h-8 fill-current" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Copyrights note -->
+                    <div class="text-gray-600 text-sm mr-4">&copy; Sttor All rights reserved.</div>
                 </div>
             </div>
-        </footer>
-
-    </div>
+        </div>
+    </footer>
+</div>
 
     <script src="./js/vendors/alpinejs.min.js" defer></script>
     <script src="./js/vendors/aos.js"></script>

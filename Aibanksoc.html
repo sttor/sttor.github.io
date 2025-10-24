@@ -9,211 +9,191 @@
     <link href="./style.css" rel="stylesheet">
 </head>
 
-<body class="font-inter antialiased bg-gray-900 text-gray-200 tracking-tight">
+<body class="font-inter antialiased bg-[#f7f9fc] text-gray-900 tracking-tight">
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden">
 
         <!-- Site header -->
-        <header class="absolute w-full z-30">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                <div class="flex items-center justify-between h-20">
-    
+        <header class="fixed z-30 top-0 left-0 w-full " style="position: fixed; width: 100%; z-index: 30;">
+            <div class="max-w-6xl " style="max-width: 1200px; margin: 0 auto; ">
+
+                <div
+                    style="position: absolute; inset: 0; z-index: 0; background: repeating-linear-gradient(to right, #eef3fd 0px, #eef3fd 30px, transparent 30px, transparent 70px); opacity: 0.45;">
+                </div>
+                <div class="flex items-center border-1.5 justify-between "
+                    style="height: 56px; min-height: 56px; padding-top: 0; padding-bottom: 0;  background: rgba(255,255,255,0.7); border-radius: 18px; box-shadow: 0 6px 32px rgba(59,130,246,0.09); backdrop-filter: blur(5px); padding: 0 2.5rem; margin-top: 25px; position: relative; z-index: 2;">
+
                     <!-- Site branding -->
-                    <div class="shrink-0 mr-4">
+                    <div class="shrink-0 ">
                         <!-- Logo -->
                         <a class="block" href="index.html" aria-label="Sttor">
-                            <p  style="
-                                      padding-top:5px;
-                                      padding-bottom:5px;
-                                      padding-left:12px;
-                                      padding-right:12px;
-                                    "
-                               class="flex items-center h3 text-purple-600 logo">
-                               <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 1294.21 1498.96" width="70.21" height="100.96">
-                                <circle cx="562.82" cy="725.47" r="522.25" style="fill: rgb(21 23 25); stroke: #000; stroke-miterlimit: 10;"/>
-                                <path d="M109.17,612.68c49.81,43.22,104.04,87.52,162.85,131.99,49.71,37.59,98.36,72.04,145.44,103.58-6.36,10.67-17.64,26.81-36.04,41.81-11.82,9.63-31.88,25.58-62.38,30.5-28.96,4.68-51.75-3.16-60.81-6.3-33.71-11.69-52.94-34.42-69.02-53.34-31.22-36.72-43.87-72.69-54.38-103.53-11.11-32.6-23.97-81.96-25.66-144.7Z" style="fill: #fff; stroke: #000; stroke-miterlimit: 10;"/>
-                                <path d="M120.88,635.3c38.95,37.33,84.26,76.95,136.36,116.65,49.53,37.74,97.33,69.56,141.63,96.31-8.09,10.79-25.31,30.69-54.08,43.94-11.54,5.32-33.74,15.46-61.37,12.24-33.01-3.85-54.53-24.92-70.46-40.97-11.84-11.92-31.72-34.91-56.16-98.17-12.02-31.11-26.34-75.04-35.91-130Z" style="fill: #050505;"/>
-                                <path d="M906.51,595.6c-28.02,17.24-56.11,34.37-84.2,51.49-116.75,71.18-233.82,142.53-359.8,201.02,5.27,9.95,37.42,68.45,103.53,82.8,53.37,11.58,97.64-12.38,119.35-24.13,32.81-17.76,53.9-40.89,66.91-55.17,17.63-19.33,28.28-36.05,46.12-64.03,18.08-28.36,31.51-52.83,40.55-70.21,9.7-17.98,19.58-36.07,29.64-54.26,12.62-22.82,25.26-45.32,37.9-67.51Z" style="fill: #fff; stroke: #000; stroke-miterlimit: 10;"/>
-                                <path d="M973.53,472.71s-15.18,8.24-15.18,8.24c-84.53,45.81-170.68,92.72-256.22,140.14-119.57,66.28-254.01,140.49-252.6,143.17,1.16,2.2,94.16-43.03,509.65-257.96,7.85,32.42,15.77,80.89,11.29,139.46-5.67,74.01-28.34,127.44-36.08,144.64-29.27,64.97-67.88,106.29-83.72,122.15-19.14,19.17-89.05,87.37-199.32,109.39-22.32,4.46-71.04,13.74-130.11,3.63-23.15-3.96-49.83-11.23-50.1-10.2-.27,1.01,24.93,8.7,49.2,15.88h0s23.71,5.13,45.41,8.11c9.41,1.29,129.78,9.13,246.25-69.9,165.77-112.48,183.74-306,184.98-322.28,5.75-75.34-10.29-136.87-23.45-174.46Z" style="fill: #fff;"/>
-                                <path d="M862.88,642.96c-24.05,14.18-48.15,28.28-72.26,42.37-100.19,58.57-200.66,117.28-308.78,165.41,4.52,8.19,32.12,56.32,88.85,68.13,45.8,9.53,83.8-10.19,102.43-19.85,27.87-14.47,45.78-33.21,57.43-45.39,14.94-15.63,23.63-28.61,39.58-52.69,11.16-16.85,25.5-39.9,40.55-68.5,0,0,35.09-60.63,52.21-89.47Z" style="fill: #050505;"/>
-                              </svg>
-                                <b>Sttor</b>
-
-                            </p>
+                            <div class="shrink-0 ">
+                                <!-- Logo -->
+                                <a class="block" href="index.html" aria-label="Sttor">
+                                    <img src="./images/sttor-new logo.jpeg" alt="Sttor Logo" class=""
+                                        style="height: 50px; width: 50px; padding: 3px; border-radius: 9999px; box-shadow: 0 2px 12px rgba(59,130,246,0.12);" />
+                                </a>
+                            </div>
                         </a>
                     </div>
-    
+
                     <!-- Desktop navigation -->
                     <nav class="hidden md:flex md:grow">
-    
+
                         <!-- Desktop menu links -->
-                        <ul class="flex grow justify-end flex-wrap items-center">
-                            <li
-                                class="relative"
-                                x-data="{ open: false }"
-                                @mouseenter="open = true"
-                                @mouseleave="open = false"
-                            >
-                                <a
-                                    class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                                    href="#0"
-                                    aria-haspopup="true"
-                                    :aria-expanded="open"
-                                    @focus="open = true"
-                                    @focusout="open = false"
-                                    @click.prevent
-                                >
-                                   Services
-                                    <svg class="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
+                        <ul class="flex grow justify-end flex-wrap items-center" style="gap: 15px;">
+                            <li class="relative" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a class="text-gray-900 hover:text-gray-700 px-4 py-2 flex items-center"
+                                    style=" font-size: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: transparent; transition: background 0.15s, color 0.15s;"
+                                    href="#0" aria-haspopup="true" :aria-expanded="open" @focus="open = true"
+                                    @focusout="open = false" @click.prevent>
+                                    Services
+                                    <svg class="w-3 h-3 fill-current text-gray-900 cursor-pointer ml-1 shrink-0"
+                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
                                     </svg>
                                 </a>
                                 <!-- 2nd level: hover -->
-                                <ul
-                                    class="origin-top-right absolute top-full right-0  w-60 bg-gray-800 py-2 ml-4 rounded-sm"
-                                    x-show="open"
+                                <ul class="origin-top-right absolute top-full right-0 w-60 border border-1  bg-white py-2 ml-4 rounded-sm"
+                                    style=" border-radius: 10px; min-width: 170px; margin-top: 3px;" x-show="open"
                                     x-transition:enter="transition ease-out duration-200 transform"
                                     x-transition:enter-start="opacity-0 -translate-y-2"
                                     x-transition:enter-end="opacity-100 translate-y-0"
                                     x-transition:leave="transition ease-out duration-200"
-                                    x-transition:leave-start="opacity-100"
-                                    x-transition:leave-end="opacity-0"
-                                    x-cloak
-                                >
+                                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak>
                                     <li>
-                                        <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="devsecopsservice.html" @focus="open = true" @focusout="open = false">DevSecOps as a Service</a>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style=" font-size: 0.9rem; " href="devsecopsservice.html"
+                                            @focus="open = true" @focusout="open = false">DevSecOps as a Service</a>
                                     </li>
                                     <li>
-                                        <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="soc.html" @focus="open = true" @focusout="open = false"> Security Operations Center</a>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style="font-size: 0.9rem; " href="soc.html" @focus="open = true"
+                                            @focusout="open = false"> Security
+                                            Operations Center</a>
                                     </li>
                                     <li>
-                                        <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="Kubernetessec.html" @focus="open = true" @focusout="open = false">Kubernetes Security Assessment </a>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style=" font-size: 0.9rem; " href="Kubernetessec.html" @focus="open = true"
+                                            @focusout="open = false">Kubernetes Security Assessment </a>
                                     </li>
                                     <li>
-                                        <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="cloudsec.html" @focus="open = true" @focusout="open = false">Cloud Security Assessment </a>
+                                        <a class="font-medium text-sm text-gray-800 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style="font-weight: 500; font-size: 0.9rem; " href="cloudsec.html"
+                                            @focus="open = true" @focusout="open = false">Cloud
+                                            Security Assessment </a>
                                     </li>
                                 </ul>
                             </li>
-                            <li
-                                class="relative"
-                                x-data="{ open: false }"
-                                @mouseenter="open = true"
-                                @mouseleave="open = false"
-                            >
-                                <a
-                                    class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                                    href="#0"
-                                    aria-haspopup="true"
-                                    :aria-expanded="open"
-                                    @focus="open = true"
-                                    @focusout="open = false"
-                                    @click.prevent
-                                >
-                                   Product
-                                    <svg class="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
+                            <li class="relative" x-data="{ open: false }" @mouseenter="open = true"
+                                @mouseleave="open = false">
+                                <a class="text-gray-900 hover:text-gray-700 px-4 py-2 flex items-center"
+                                    style=" font-size: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: transparent; transition: background 0.15s, color 0.15s;"
+                                    href="#0" aria-haspopup="true" :aria-expanded="open" @focus="open = true"
+                                    @focusout="open = false" @click.prevent>
+                                    Product
+                                    <svg class="w-3 h-3 fill-current text-gray-900 cursor-pointer ml-1 shrink-0"
+                                        viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
                                     </svg>
                                 </a>
                                 <!-- 2nd level: hover -->
-                                <ul
-                                    class="origin-top-right absolute top-full right-0 w-40 bg-gray-800 py-2 ml-4 rounded-sm"
-                                    x-show="open"
+                                <ul class="origin-top-right absolute top-full right-0 w-40 bg-white border  py-2 ml-4 rounded-sm"
+                                    style="border-radius: 10px;  min-width: 170px; margin-top: 3px;" x-show="open"
                                     x-transition:enter="transition ease-out duration-200 transform"
                                     x-transition:enter-start="opacity-0 -translate-y-2"
                                     x-transition:enter-end="opacity-100 translate-y-0"
                                     x-transition:leave="transition ease-out duration-200"
-                                    x-transition:leave-start="opacity-100"
-                                    x-transition:leave-end="opacity-0"
-                                    x-cloak
-                                >
+                                    x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0" x-cloak>
                                     <li>
-                                        <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="Aidevsecops.html" @focus="open = true" @focusout="open = false">AI DevSecOps </a>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style=" font-size: 0.9rem;" href=" https://devsecops.bot" @focus="open = true"
+                                            @focusout="open = false">AI
+                                            DevSecOps </a>
                                     </li>
                                     <li>
-                                        <a class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight" href="Aibanksoc.html" @focus="open = true" @focusout="open = false">AI Banking SOC</a>
+                                        <a class="font-medium text-sm text-gray-900 hover:text-gray-700 flex py-2 px-4 leading-tight"
+                                            style="font-size: 0.9rem;" href="Aibanksoc.html" @focus="open = true"
+                                            @focusout="open = false">AI
+                                            Banking SOC</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" href="about.html">About us</a>
+                                <a class="text-gray-900 hover:text-gray-700 px-4 py-2 flex items-center"
+                                    style="font-size: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: transparent; transition: background 0.15s, color 0.15s;"
+                                    href="about.html">About us</a>
                             </li>
-                           
-                            <!-- 1st level: hover -->
-                            
                         </ul>
-    
-    
                     </nav>
-                    
-                    <!-- Mobile menu -->
+
+                    <!-- Mobile menu (unchanged) -->
                     <div class="md:hidden" x-data="{ expanded: false }">
-    
+
                         <!-- Hamburger button -->
-                        <button
-                            class="hamburger"
-                            :class="{ 'active': expanded }"
-                            @click.stop="expanded = !expanded"
-                            aria-controls="mobile-nav"
-                            :aria-expanded="expanded"
-                        >
+                        <button class="hamburger" :class="{ 'active': expanded }" @click.stop="expanded = !expanded"
+                            aria-controls="mobile-nav" :aria-expanded="expanded">
                             <span class="sr-only">Menu</span>
-                            <svg class="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="w-6 h-6 fill-current text-gray-600 hover:text-gray-700 transition duration-150 ease-in-out"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <rect y="4" width="24" height="2" rx="1" />
                                 <rect y="11" width="24" height="2" rx="1" />
                                 <rect y="18" width="24" height="2" rx="1" />
                             </svg>
                         </button>
-    
+
                         <!-- Mobile navigation -->
-                        <nav
-                            id="mobile-nav"
+                        <nav id="mobile-nav"
                             class="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
                             x-ref="mobileNav"
                             :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'"
-                            @click.outside="expanded = false"
-                            @keydown.escape.window="expanded = false"
-                            x-cloak
-                        >
-                            <ul class="bg-gray-800 px-4 py-2">
-                              
+                            @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak>
+                            <ul class="bg-white px-4 py-2 rounded-lg border">
                                 <li>
-                                    <a class="flex text-gray-300 hover:text-gray-200 py-2" href="about.html">About us</a>
+                                    <a class="flex text-gray-900 hover:text-gray-700 py-2" href="about.html">About
+                                        us</a>
                                 </li>
                                 <li class="py-2 my-2 border-t border-gray-700">
-                                    <span class="flex text-gray-300 py-2">Services</span>
+                                    <span class="flex text-gray-900 py-2">Services</span>
                                     <ul class="pl-4">
                                         <li>
-                                            <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="devsecopsservice.html">DevSecOps as a Service</a>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="devsecopsservice.html">DevSecOps as a Service</a>
                                         </li>
                                         <li>
-                                            <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="soc.html">Security Operations Center</a>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="soc.html">Security Operations Center</a>
                                         </li>
                                         <li>
-                                            <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="Kubernetessec.html">Kubernetes Security Assessment</a>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="Kubernetessec.html">Kubernetes Security Assessment</a>
                                         </li>
                                         <li>
-                                            <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="cloudsec.html">Cloud Security Assessment </a>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="cloudsec.html">Cloud Security Assessment </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="py-2 my-2 border-t border-gray-700">
-                                    <span class="flex text-gray-300 py-2">Product</span>
+                                    <span class="flex text-gray-900 py-2">Product</span>
                                     <ul class="pl-4">
                                         <li>
-                                            <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="Aidevsecops.html">AI DevSecOps</a>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href=" https://devsecops.bot">AI DevSecOps</a>
                                         </li>
                                         <li>
-                                            <a class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2" href="Aibanksoc.html">AI Banking SOC</a>
+                                            <a class="text-sm flex font-medium text-gray-900 hover:text-gray-700 py-2"
+                                                href="Aibanksoc.html">AI Banking SOC</a>
                                         </li>
-                                        
                                     </ul>
                                 </li>
                             </ul>
                         </nav>
-    
                     </div>
-    
                 </div>
             </div>
         </header>
@@ -289,27 +269,15 @@
                     </svg>
                     </div class="mr-11">
                        
-                        <h1 class="h1 mb-4 text-purple-600 tracking-widest ml-10" data-aos="fade-up">COMMING SOON</h1>
-                    </div>
-
-                 
-
+                        <h1 class="h1 mb-4 text-gray-900 tracking-widest ml-10" data-aos="fade-up">COMMING SOON</h1>
+                    </div>    
                 </div>
-
             </div>
-        </section>
-            
+        </section>           
         </main>
-     
-
-
     </div>
-
     <script src="./js/vendors/alpinejs.min.js" defer></script>
     <script src="./js/vendors/aos.js"></script>
     <script src="./js/main.js"></script>
-
 </body>
-
-
 </html>

@@ -17,17 +17,17 @@ module.exports = {
           800: '#25282C',
           900: '#151719',
         },
-        purple: {
-          100: '#F4F4FF',
-          200: '#E2E1FF',
-          300: '#CBCCFF',
-          400: '#ABABFF',
-          500: '#8D8DFF',
-          600: '#5D5DFF',
-          700: '#4B4ACF',
-          800: '#38379C',
-          900: '#262668',
-        },
+          blue: {
+      100: '#DBEAFE',
+      200: '#BFDBFE',
+      300: '#93C5FD',
+      400: '#60A5FA',
+      500: '#3B82F6',
+      600: '#2563EB',
+      700: '#1D4ED8',
+      800: '#1E40AF',
+      900: '#1E3A8A'
+    },
       },
       spacing: {
         '9/16': '56.25%',
@@ -69,6 +69,7 @@ module.exports = {
       },
     },
   },
+
   plugins: [
     // eslint-disable-next-line global-require
     require('@tailwindcss/forms'),
